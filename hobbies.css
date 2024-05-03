@@ -1,0 +1,18 @@
+*{
+    background:lavender;
+}
+p{
+    font-style: italic;
+    text-align: justify;
+}
+img{
+    width: 200px;
+    padding: 10px;
+    min-width: 400px;
+
+}
+#g{
+    float: right;
+    margin-right:600px ;
+    text-wrap:wrap;
+}

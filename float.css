@@ -1,0 +1,14 @@
+body{
+    background-color: lavender;
+}
+p {
+    float: left;
+    width: 80%;
+    
+}
+img {
+    float: right;
+    width: 210px;
+    margin-left: 1rem;
+    margin-top:-50px ;
+}

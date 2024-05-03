@@ -1,0 +1,49 @@
+*{
+    background:black;
+    color: lavender;
+    background-size: cover;
+}
+h3{
+    font-style: italic;
+color: aqua;
+}
+h4{
+    color: aqua;
+
+
+}
+p{
+    font-style:italic;
+    color:beige;
+}
+img{
+    display: flex;
+    float: left;
+    padding: 40px;
+    justify-content: space-around; /* Align items with space around them */
+    align-items: center; /* Align items vertically in the center */
+    margin-top: 50px;
+    max-width: 300px;
+    height: 300px;
+}
+#p{
+font-style: italic;
+font-weight: bolder;
+}
+.images-img {
+    width: 150px;
+    height: 150px;
+    background-image: url(./friends/w1.jpeg);
+    background-size: cover;
+    transition: transform 0.5s ease; /* Apply transition effect to the transform property */
+  }
+
+  .moving-img:hover {
+    transform: translateX(50px); /* Move the image 50px to the right on hover */
+  }
+td,th{
+    padding: 12px;
+    width: 50px;
+    border-color: aqua;
+  }
+  
